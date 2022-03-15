@@ -1,0 +1,40 @@
+.container{
+    max-width: 80%;
+    margin: auto;
+    background-color: violet;
+}
+
+.container h2, p{
+    text-align: center;
+}
+
+input, textarea{
+    padding: 10px;
+    margin: 10px 10px;
+    max-width: 80%;
+    border: 5px solid black;
+    border-radius: 10px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: aqua;
+    text-decoration: solid;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submitmsg{
+    color: green;
+    font-size: 30px;
+}
